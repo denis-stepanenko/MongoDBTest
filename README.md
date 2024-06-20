@@ -1,8 +1,8 @@
-<p>cls</p>
-<p>show dbs</p>
-<p>use <database></p>
-show collections
-show users
+cls<br/>
+show dbs<br/>
+use [database]<br/>
+show collections<br/>
+show users<br/>
 db.createCollection(<name>)
 db.movies.drop()
 db.movies.renameCollection("movies2")
