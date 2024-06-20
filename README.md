@@ -1,6 +1,6 @@
-cls
-show dbs
-use <database>
+<p>cls</p>
+<p>show dbs</p>
+<p>use <database></p>
 show collections
 show users
 db.createCollection(<name>)
