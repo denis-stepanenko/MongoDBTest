@@ -10,8 +10,10 @@ db.<collection>.insertOne([object])<br/>
 db.<collection>.insertMany([[object1], ... , [objectN]]) <br/>
 db.<collection>.find()<br/>
 db.<collection>.find([filter_object], [fields]) <br/>
-	db.movies.find({"genre": "Thriller"}, {"title": 1, "year": 1})<br/>
-	db.movies.find({}, {"title": 1})<br/>
+<ul>
+	<li>db.movies.find({"genre": "Thriller"}, {"title": 1, "year": 1})</li>
+	<li>db.movies.find({}, {"title": 1})</li>
+</ul>
 db.movies.findOne({"_id": ObjectId("64a2c9842d5edd22c1c126c2")})<br/>
 db.movies.countDocuments()<br/>
 db.movies.find().limit(5)<br/>
