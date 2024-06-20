@@ -16,8 +16,10 @@ db.movies.findOne({"_id": ObjectId("64a2c9842d5edd22c1c126c2")})<br/>
 db.movies.countDocuments()<br/>
 db.movies.find().limit(5)<br/>
 db.movies.find().sort({"title": 1})<br/>
-	1 - по возрастанию<br/>
-	-1 - по убыванию<br/>
+<ul>
+	<li>1 - по возрастанию</li>
+	<li>-1 - по убыванию</li>
+</ul>
 db.movies.find({"year": {$gt: 1950}})<br/>
 db.movies.find({"year": {$lt: 1995}})<br/>
 db.movies.find({"year": {$lte: 1996}})<br/>
